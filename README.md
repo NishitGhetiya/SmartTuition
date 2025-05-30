@@ -1,0 +1,2 @@
+# SmartTuition
+MERN Stack Project
