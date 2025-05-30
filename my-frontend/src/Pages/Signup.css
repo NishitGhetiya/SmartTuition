@@ -1,0 +1,108 @@
+/* Container */
+.signup-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+    padding: 5px;
+}
+
+/* Box Styling */
+.signup-box {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    width: 360px;
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.signup-box:hover {
+    transform: translateY(-2px);
+}
+
+/* Title */
+.title {
+    color: #28a745;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+/* Form Styling */
+h4 {
+    text-align: center;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Aligning Labels and Inputs */
+.form-group {
+    margin-bottom: 8px; /* Reduced space between fields */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    margin-bottom: 3px; /* Reduced space between label and input */
+    font-size: 13px;
+    color: #333;
+}
+
+/* Form Inputs */
+.form-input {
+    width: 100%;
+    padding: 8px; /* Reduced padding */
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+    font-size: 14px;
+    background: #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+.form-input:focus {
+    border-color: #28a745;
+    background: #ffffff;
+    box-shadow: 0 0 3px rgba(40, 167, 69, 0.2);
+}
+
+/* Button */
+.btn-success {
+    border-radius: 4px;
+    background-color: #28a745;
+    border: none;
+    padding: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.2s ease-in-out;
+    margin-top: 8px;
+}
+
+.btn-success:hover {
+    background-color: #218838;
+}
+
+/* Redirect Link */
+.redirect-text {
+    margin-top: 10px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.redirect-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.2s ease-in-out;
+}
+
+.redirect-text a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
